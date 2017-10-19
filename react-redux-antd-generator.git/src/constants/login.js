@@ -1,0 +1,16 @@
+export const LOGIN_REQUESTED = 'login/LOGIN_REQUESTED';
+export const LOGIN_SUCCEEDED = 'login/LOGIN_SUCCEEDED';
+export const LOGIN_FAILED = 'login/LOGIN_FAILED';
+
+export const LOGOUT_REQUESTED = 'login/LOGOUT_REQUESTED';
+export const LOGOUT_SUCCEEDED = 'login/LOGOUT_SUCCEEDED';
+export const LOGOUT_FAILED = 'login/LOGOUT_FAILED';
+
+export default{
+    LOGIN_REQUESTED,
+    LOGIN_SUCCEEDED,
+    LOGIN_FAILED,
+    LOGOUT_REQUESTED,
+    LOGOUT_SUCCEEDED,
+    LOGOUT_FAILED
+}
