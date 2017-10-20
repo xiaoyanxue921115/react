@@ -1,0 +1,20 @@
+{
+    "flag": "1",
+    "message": "" ,
+    "data": {
+        "resultList":[
+            {
+                "departmentId": 111,
+                "departmentName": "墨丘利"
+            },
+            {
+                "departmentId": 222,
+                "departmentName": "阿波罗"
+            },
+            {
+                "departmentId": 333,
+                "departmentName": "无限"
+            }
+        ]
+    }
+}

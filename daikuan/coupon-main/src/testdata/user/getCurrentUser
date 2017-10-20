@@ -1,0 +1,10 @@
+{
+    "message":"",
+    "flag":1,
+    "data":{
+        "userInfo":{
+            "userName":"Mercury"
+        },
+        "role":"SOP"
+    }
+}

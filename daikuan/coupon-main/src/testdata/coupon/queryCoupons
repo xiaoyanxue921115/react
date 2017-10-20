@@ -1,0 +1,52 @@
+{
+    "flag": "1",
+    "message": "" ,
+    "data": {
+        "countPerPage": 20,
+        "pageIndex": 4,
+        "pageCount": 4,
+        "totalCount": 10000,
+        "maxCount":20000,
+        "resultList":[
+            {
+                "loanCode":"BN8966",
+                "loanCouponCode":786876,
+                "loanChannelName":"百度钱包",
+                "validityStart":"2017-09",
+                "validityEnd":"2017-10",
+                "departmentName":"墨丘利",
+                "departmentId":"789",
+                "legionName":"第一军团",
+                "legionId":"456",
+                "orderNumber":"211212",
+                "couponStatus":"LOAN_COUPON_STATUS_ACTIVE"
+            },
+            {
+                "loanCode":"BN8966",
+                "loanCouponCode":786876,
+                "loanChannelName":"百度钱包",
+                "validityStart":"2017-09",
+                "validityEnd":"2017-10",
+                "departmentName":"墨丘利",
+                "departmentId":"789",
+                "legionName":"第一军团",
+                "legionId":"456",
+                "orderNumber":"211212",
+                "couponStatus":"LOAN_COUPON_STATUS_ACTIVE"
+            },
+            {
+                "loanCode":"BN8966",
+                "loanCouponCode":786876,
+                "loanChannelName":"百度钱包",
+                "validityStart":"2017-09",
+                "validityEnd":"2017-10",
+                "departmentName":"墨丘利",
+                "departmentId":"789",
+                "legionName":"第一军团",
+                "legionId":"456",
+                "orderNumber":"211212",
+                "couponStatus":"LOAN_COUPON_STATUS_ACTIVE"
+            }
+        ]
+    }
+}

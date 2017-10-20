@@ -1,0 +1,88 @@
+.modal__mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    z-index: 999;
+}
+.modal{
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    animation: fade-in 0.4s;/*动画名称*/
+    -webkit-animation:fade-in 0.4s;/*针对webkit内核*/
+}
+.modal--content{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+.modal-close{
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background: url(../../../images/close.png) center center no-repeat;
+}
+.modal-title{
+    height: 50px;
+    width: 100%;
+    padding: 16px 20px 13px;
+    border-bottom: 1px solid #CCCCCC;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: -0.39px;
+}
+.modal-title-plus{
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: -0.34px;
+}
+.modal-panel{
+    overflow: auto;
+    width: 100%;
+    padding: 20px;
+}
+@keyframes fade-in {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    50% {opacity: 0.8;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    50% {opacity: 0.8;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@keyframes fade-out {
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+    50% {opacity: 0.8;}/*过渡状态 透明度为0*/
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+}
+@-webkit-keyframes fade-out {/*针对webkit内核*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+    50% {opacity: 0.8;}/*过渡状态 透明度为0*/
+    0% {opacity: 0;}
+}
+.modal__confirm-text{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: -0.34px;
+    height: 42px;
+    line-height: 21px;
+}

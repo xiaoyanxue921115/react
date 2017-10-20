@@ -1,0 +1,20 @@
+{
+    "flag": "1",
+    "message": "" ,
+    "data": {
+        "resultList":[
+            {
+                "loanChannelCode": 111,
+                "loanChannelName": "百度钱包"
+            },
+            {
+                "loanChannelCode": 222,
+                "loanChannelName": "京东白条"
+            },
+            {
+                "loanChannelCode": 333,
+                "loanChannelName": "咖啡易融"
+            }
+        ]
+    }
+}
